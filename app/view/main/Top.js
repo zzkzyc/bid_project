@@ -7,17 +7,24 @@ Ext.define("App.view.main.Top", {
 	xtype: "top",
 	id: "top",
 	uses: ["App.ux.XBtn"],
-	
+
 	initComponent: function() {
 		Ext.apply(this, {
 			height: 40,
 			border: false,
 			layout: "auto",
 			items: [{
-				xtype: "image",
-				src: "img/logo.png",
-				cls: "main-logo"
-			}, {
+				xtype: "container",
+				cls: "top-left-tool",
+				items: [{
+					xtype: "label",
+					html: "欢迎使用招标项目后台"
+				}]
+			},/*{
+			 xtype: "image",
+			 src: "img/logo.png",
+			 cls: "main-logo"
+			 },*/ {
 				xtype: "container",
 				cls: "top-tool",
 				items: [{
@@ -30,7 +37,7 @@ Ext.define("App.view.main.Top", {
 					handler: "exitSys"
 				}]
 			}]
-		}); 
+		});
 		this.callParent(arguments);
 	}
 });

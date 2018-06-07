@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /********* reset **********/
-body.x-border-layout-ct, 
+body.x-border-layout-ct,
 div.x-border-layout-ct {background-color:#fff;}
 
 /********* additon **********/
@@ -10,6 +10,7 @@ div.x-border-layout-ct {background-color:#fff;}
 #top {position:relative;}
 .main-logo {display:block;margin:5px;height:30px;}
 .top-tool {position:absolute;top:10px;right:5px;color:#333;}
+.top-left-tool {position:absolute;top:10px;left:5px;color:#333;}
 .top-tool .x-autocontainer-outerCt {width:auto!important;}
 .top-tool label {margin-right:10px;line-height:24px;}
 .main-logo {float:left;display:block;margin:5px 3px;height:30px;}

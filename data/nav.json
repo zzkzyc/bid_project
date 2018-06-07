@@ -24,16 +24,18 @@
 			"modUrl": "user.User"
 		}]
 	}, {
-		"text": "文章管理",
+		"text": "项目管理",
 		"expanded": true,
 		"children": [{
-			"text": "文章列表",
-			"leaf": true
+			"text": "市政",
+			"leaf": true,
+			"cls": "node-link"
 		}, {
-			"text": "发布文章",
-			"leaf": true
+			"text": "公路",
+			"leaf": true,
+			"cls": "node-link"
 		}]
-	}, {
+	}/*, {
 		"text": "产品管理",
 		"expanded": true,
 		"children": [{
@@ -59,5 +61,5 @@
 			"text": "报表打印",
 			"leaf": true
 		}]
-	}]
+	}*/]
 }
